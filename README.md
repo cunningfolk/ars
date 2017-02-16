@@ -1,6 +1,6 @@
 # Ars
 
-Object Reflection for Ruby Client Setup and Testing
+Object Reflection for Ruby API Client Setup and Testing
 
 # Description
 
