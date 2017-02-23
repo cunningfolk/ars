@@ -1,0 +1,2 @@
+class ActiveModelSubject
+end

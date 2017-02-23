@@ -29,4 +29,10 @@ Gem::Specification.new do |spec|
     end
   end
 
+  spec.add_development_dependency 'rake'
+  spec.add_development_dependency 'rspec', '~> 3'
+  spec.add_development_dependency 'appraisal'
+
+  spec.add_development_dependency 'mongoid'
+
 end

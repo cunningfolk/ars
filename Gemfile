@@ -10,10 +10,6 @@ gemspec
   end
 end
 
-gem 'rake'
-gem 'bundler'#, '~> 1.14'
-gem 'rspec'#, '~> 3.0'
-
 gem 'yard', require: false
 
 eval File.read('Gemfile.local') if File.exist?('Gemfile.local')

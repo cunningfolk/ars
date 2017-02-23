@@ -1,0 +1,9 @@
+dependencies:
+  post:
+    - bundle exec appraisal install
+test:
+#  pre:
+#    - bundle exec appraisal rake db:create
+#    - bundle exec appraisal rake db:migrate
+  override:
+    - bundle exec appraisal rvm 2.0,2.1,2.2,2.3,2.4 do rake
