@@ -1,5 +1,16 @@
 sudo: false
 language: ruby
 rvm:
-  - 2.1.5
+  - 2.3.1
+  - 2.2.5
+  - 2.1
+  - 2.0
+  - ruby-head
 before_install: gem install bundler -v 1.14.3
+# Put this in your .travis.yml
+gemfile:
+  - gemfiles/her_0.5.gemfile
+  - gemfiles/her_0.6.gemfile
+  - gemfiles/her_0.7.5.gemfile
+  - gemfiles/her_0.7.6.gemfile
+  - gemfiles/her_0.8.1.gemfile
