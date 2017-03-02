@@ -1,5 +1,7 @@
 require "ars/version"
 
 module Ars
-  # Your code goes here...
+  autoload :Medium       , 'ars/medium'
+  autoload :Familiar     , 'ars/familiar'
+  autoload :Doppleganger , 'ars/doppleganger'
 end
