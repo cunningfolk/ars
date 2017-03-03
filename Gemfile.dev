@@ -10,5 +10,10 @@ end
 
 gem 'gem-release'
 gem 'yard', require: false
+gem 'rake'
+gem 'rspec', '~> 3'
+gem 'appraisal'
+
+gem 'mongoid'
 
 eval_gemfile 'Gemfile'
