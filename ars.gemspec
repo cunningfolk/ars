@@ -28,5 +28,6 @@ Gem::Specification.new do |spec|
       spec.add_runtime_dependency "ars-#{lib_name}", "~> #{Ars::VERSION.sub(/^((?:\d+\.){2}).*$/, '\10')}"
     end
   end
+  spec.add_runtime_dependency 'ars-terra'
 
 end
